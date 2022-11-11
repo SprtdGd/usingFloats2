@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9DCB3;
+
+}
+
+
+/* wrapper */
+
+.wrapper-div {
+    width: 85%;
+    margin: auto;
+}
+
+/* Logo and Navigation */
+
+.logo-nav-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: #E27B6E;
+    margin-bottom: 10px;
+}
+
+.logo-div {
+    width: 50%;
+    min-height: 50px;;
+    float: left;
+    line-height: 50px;
+    padding-left: 2%;
+}
+
+.nav-div {
+    width: 50%;
+    min-height: 50px;
+    float: left;
+    line-height: 50px;
+    padding-left: 2%;
+    background-color: #AEA0DE;
+
+}
+
+/* clearfix hack */
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* Header */
+
+.header-div {
+    width: 100%;
+    min-height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: #E27B6E;
+    margin-bottom: 10px;
+}
+
+/* intro text area */
+
+.intro-div {
+    width: 100%;
+    min-height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: #E27B6E;
+    margin-bottom: 10px; 
+}
+
+
+/*  main */
+
+.main-div {
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 10px;
+    
+}
+
+.main-div2 {
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 10px;
+    
+}
+
+/* Boxes */
+
+.main-div .box{
+    width: 30%;
+    min-height: 400px;
+    line-height: 400px;
+    text-align: center;
+    background-color: #AEA0DE;
+    float: left;
+}
+
+.main-div .box:nth-child(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.main-div2 .box{
+    width: 30%;
+    min-height: 400px;
+    line-height: 400px;
+    text-align: center;
+    background-color: #AEA0DE;
+    float: left;
+}
+
+.main-div2 .box:nth-child(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+/*  footer */
+.footer {
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #E27B6E;
+}
